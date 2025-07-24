@@ -28,14 +28,20 @@ It features a complete command-line interface and is structured for clarity, reu
 
 ## 🗂 Project Structure
 
-/Team24-Project
-│
-├── main.cpp # Entry point, coordinates parts and UI
-├── Part1.cpp/.h # Stress analysis logic
-├── Part2.cpp/.h # Motor-gearbox selection logic
-├── Motor.cpp/.h # Motor model and attributes
-├── Gearbox.cpp/.h # Gearbox model and attributes
-├── UserInterface.cpp/.h # User input, display, validation
+## 📁 Project Structure
+
+```bash
+├── main.cpp              # Entry point, coordinates parts and UI
+├── Part1.cpp             # Handles mechanical stress analysis logic
+├── Part1.h               # Header for Part1.cpp
+├── Part2.cpp             # Manages motor-gearbox selection logic
+├── Part2.h               # Header for Part2.cpp
+├── Motor.cpp             # Motor class implementation
+├── Motor.h               # Header for Motor.cpp
+├── Gearbox.cpp           # Gearbox class implementation
+├── Gearbox.h             # Header for Gearbox.cpp
+├── UserInterface.cpp     # Handles user input, validation, and output
+├── UserInterface.h       # Header for UserInterface.cpp
 
 ---
 
