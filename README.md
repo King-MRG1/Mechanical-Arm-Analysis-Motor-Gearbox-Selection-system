@@ -102,6 +102,3 @@ Includes:
 - 💣 Calculation edge cases (division by zero, stress overflow)
 
 ---
-
-## 🧪 Example Interaction (CLI)
-
