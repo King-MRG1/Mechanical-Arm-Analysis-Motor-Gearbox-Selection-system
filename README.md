@@ -26,8 +26,6 @@ It features a complete command-line interface and is structured for clarity, reu
 
 ---
 
-## 🗂 Project Structure
-
 ## 📁 Project Structure
 
 ```bash
@@ -43,6 +41,7 @@ It features a complete command-line interface and is structured for clarity, reu
 ├── UserInterface.cpp     # Handles user input, validation, and output
 ├── UserInterface.h       # Header for UserInterface.cpp
 
+```
 ---
 
 ## 🛠 Technologies
